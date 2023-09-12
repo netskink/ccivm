@@ -19,13 +19,22 @@
 |                      | Should break this up into a single file to generate the clean data including a yaml data contract |
 |                      | adds new columns, normalizes the data                                                             |
 |                      | -- cut off for cleaning data --                                                                   |
-|                      |                                                                                                   |
+|                      |  The rest of the code has:                                                                        |
+|                      |     * Defining model                                                                              |
+|                      |     * training model                                                                              |
+|                      |     * testing model                                                                               |
+| csv/usgs_gsvb_v2     | Initial set of *raw* data                                                                         |
+|                      | Originally this data came from two sources USGS and Greenstream sensor data                       |
+|                      | This dataset has been massaged and combined previously to make the current file.                  |
+
+
 
 # other urls
 
 * [the guy who did demo code](https://github.com/nicknochnack)
 * [signup to use watson x](https://dataplatform.cloud.ibm.com/wx)
 * [hackathong url](https://developer.ibm.com/callforcode/events-register?slug=techxchange)
+* [other url](https://compete.cfc-prod.skillsnetwork.site/competitions/call-for-code-at-ibm-techxchange)
 
 
 # hidden_cell

@@ -11,4 +11,6 @@ This is a mini two day hackathon for prizes.
 ## URLS
 
 * (2023 Call for Code Global Challenge)[https://developer.ibm.com/callforcode/global-challenge/)
+* [slack invite](https://callforcode.typeform.com/to/Ow3xQr)
+  
 

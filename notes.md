@@ -12,3 +12,9 @@ https://devpost.com/software/virtual-sensors-for-water-level-prediction
 * [signup to use watson x](https://dataplatform.cloud.ibm.com/wx)
 
 
+# hidden_cell
+
+Supposedly this an annotation for removing a cell from being pushed to git
+```
+@hidden_cell
+```

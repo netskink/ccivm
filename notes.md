@@ -25,6 +25,7 @@
 
 * [the guy who did demo code](https://github.com/nicknochnack)
 * [signup to use watson x](https://dataplatform.cloud.ibm.com/wx)
+* [hackathong url](https://developer.ibm.com/callforcode/events-register?slug=techxchange)
 
 
 # hidden_cell

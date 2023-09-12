@@ -35,11 +35,11 @@
 * [signup to use watson x](https://dataplatform.cloud.ibm.com/wx)
 * [hackathong url](https://developer.ibm.com/callforcode/events-register?slug=techxchange)
 * [other url](https://compete.cfc-prod.skillsnetwork.site/competitions/call-for-code-at-ibm-techxchange)
+* [hackathon resources](https://compete.cfc-prod.skillsnetwork.site/competitions/2023-call-for-code-global-challenge)
+
+# Hackathon Objective
+
+Water is listed as one of the objectives.  The specific water entry is "Address issues of water scarcity and quality".  
+In this case, the project measures water level (scarcity) at a postion based upon nearby sensors.
 
 
-# hidden_cell
-
-Supposedly this an annotation for removing a cell from being pushed to git
-```
-@hidden_cell
-```

@@ -10,7 +10,7 @@
 ## Hi-lites on orig repo
 
 | code                 | Notes                                                                                             |
-|----------------------|---------------------------------------------------------------------------------------------------|
+| -------------------- | ------------------------------------------------------------------------------------------------- |
 | src/ML-try-007.ipynb | Was the final submission code                                                                     |
 |                      | Sets up the notebook to use tensorboard.                                                          |
 |                      | I doubt tensorboard works in watsonx - remove it                                                  |

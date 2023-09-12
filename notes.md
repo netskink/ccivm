@@ -9,8 +9,7 @@
 
 ## Hi-lites on orig repo
 
-| code                 | Notes                                                                                             
-|
+| code                 | Notes                                                                                             |
 |----------------------|---------------------------------------------------------------------------------------------------|
 | src/ML-try-007.ipynb | Was the final submission code                                                                     |
 |                      | Sets up the notebook to use tensorboard.                                                          |
@@ -20,7 +19,7 @@
 |                      | Should break this up into a single file to generate the clean data including a yaml data contract |
 |                      | adds new columns, normalizes the data                                                             |
 |                      | -- cut off for cleaning data --                                                                   |
-|                      |
+|                      |                                                                                                   |
 
 # other urls
 

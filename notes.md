@@ -2,9 +2,10 @@
 # Notes
 
 
-# my previous work for another hackathon
+# Previous work for another hackathon
 
-https://devpost.com/software/virtual-sensors-for-water-level-prediction
+* [devpost proj entry](https://devpost.com/software/virtual-sensors-for-water-level-prediction)
+* [previous git repo](https://github.com/gdg-cloud-rtp-devpost-tf-2019/tf-hackathon)
 
 # other urls
 

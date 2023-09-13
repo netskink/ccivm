@@ -74,15 +74,38 @@ export _TAG_REDIR_OUT=txt
     - NOTE: If it fails due to cacert.pem error, just redo `. ./.env` and `zopen init`
 6. Add `zopen-config` to `~/.profile`
     - `. /netskin/zopen/etc/zopen-config`
-    
+
+
+## Install LLaMa on USS
+
+1. `zopen install llamacpp`
+2. download the model
+    - `curl -L -O https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin`
+3. set patch to the driver
+    - `ls /netskin/zopen/usr/local/zopen/llamacpp/llamacpp/bin/`
+
 
 ## USS LLaMa
 
 [Igor's blog post on porting LLaMa to USS](https://igortodorovskiibm.github.io/blog/2023/08/22/llama-cpp/)
 
 
+Create a script to time execution time to use LLaMa on USS to generate some summary text.
+
+
+
 ```
-$ cd zopen/llamacpp
-$ ./bin/main -m ../llama-2-7b-chat.ggmlv3.q4_0.bin -n 125 -i -p "[INST] <<SYS>> You are a helpful, respectful and honest assistant. <</SYS>> Write a C program that prints Hello World. [/INST]"
+$ cat << EOF > doit.sh
+start=`date +%s`
+
+main -m ./llama-2-7b-chat.ggmlv3.q4_0.bin -n 125 -i -p "[INST] <<SYS>> You are a helpful, respectful and honest assistant. <</SYS>> Write a markdown file that summarizes the following text: call for code IBM TechXchange This is a mini two day hackathon for prizes. It is due at 3pm today.[/INST]"
+
+end=`date +%s`
+
+runtime=$((end-start))
+
+echo $runtime
+EOF
 ```
 
+![pic](imgs/llamaussstart.png)

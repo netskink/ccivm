@@ -43,3 +43,13 @@ Water is listed as one of the objectives.  The specific water entry is "Address 
 In this case, the project measures water level (scarcity) at a postion based upon nearby sensors.
 
 
+## USS LLaMa
+
+[Igor's blog post on porting LLaMa to USS](https://igortodorovskiibm.github.io/blog/2023/08/22/llama-cpp/)
+
+
+```
+$ cd zopen/llamacpp
+$ ./bin/main -m ../llama-2-7b-chat.ggmlv3.q4_0.bin -n 125 -i -p "[INST] <<SYS>> You are a helpful, respectful and honest assistant. <</SYS>> Write a C program that prints Hello World. [/INST]"
+```
+

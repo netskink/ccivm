@@ -71,6 +71,10 @@ export _TAG_REDIR_OUT=txt
 5. install the bootstrap
     - `zopen init`
     - specify `/netskin/zopen` as destination
+    - NOTE: If it fails due to cacert.pem error, just redo `. ./.env` and `zopen init`
+6. Add `zopen-config` to `~/.profile`
+    - `. /netskin/zopen/etc/zopen-config`
+    
 
 ## USS LLaMa
 

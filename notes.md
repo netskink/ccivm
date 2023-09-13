@@ -43,6 +43,35 @@ Water is listed as one of the objectives.  The specific water entry is "Address 
 In this case, the project measures water level (scarcity) at a postion based upon nearby sensors.
 
 
+## Installing zopen open source tools
+
+This is a synoposis of this [guide](https://github.com/ZOSOpenTools/meta/releases)
+
+1. download this pax via laptop
+    - `https://github.com/ZOSOpenTools/meta/releases/download/v0.6.2/meta-0.6.2.pax.Z`
+2. upload to USS on zos system
+    - `scp meta-0.6.2.pax.Z netskin@128.168.129.26:/netskin/.`
+3. update your shell with proper settings
+    - add this to ~/.bashrc
+```
+
+export _BPXK_AUTOCVT=ON
+export _CEE_RUNOPTS="$_CEE_RUNOPTS FILETAG(AUTOCVT,AUTOTAG) POSIX(ON)"
+export _TAG_REDIR_ERR=txt
+export _TAG_REDIR_IN=txt
+export _TAG_REDIR_OUT=txt
+```
+    - logout or source your .bashrc and use `$ export ` to see these settings are in effect.
+4. Unpack the pax file
+    - `cd /netskin`
+    - `pax -rf meta-0.6.2.pax.Z`
+    - `cd meta-0.6.2`
+    - source the `.env` file into your current environment
+    - `. ./.env`
+5. install the bootstrap
+    - `zopen init`
+    - specify `/netskin/zopen` as destination
+
 ## USS LLaMa
 
 [Igor's blog post on porting LLaMa to USS](https://igortodorovskiibm.github.io/blog/2023/08/22/llama-cpp/)

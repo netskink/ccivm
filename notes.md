@@ -107,5 +107,10 @@ runtime=$((end-start))
 echo $runtime
 EOF
 ```
+### start
 
 ![pic](imgs/llamaussstart.png)
+
+### stop
+
+![pic](imgs/llamaussstop.png)

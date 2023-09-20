@@ -114,3 +114,13 @@ EOF
 ### stop
 
 ![pic](imgs/llamaussstop.png)
+
+# ibm cloud
+
+not this one
+
+* https://cloud.ibm.com/login
+
+
+this one 
+* https://dataplatform.cloud.ibm.com/home2?context=cpdaas
